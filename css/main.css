@@ -1,4 +1,72 @@
 html {
-  font-family: "georgia", serif;
+  font-family: Georgia, serif;
   color: #fff;
+}
+
+.banner-content {
+  background-color: #495562;
+  width: 100%;
+}
+
+.btn {
+  color: #fff;
+  border: solid;
+  border-color: #97a49b;
+}
+
+.button {
+  text-align: right;
+}
+
+.btn:hover {
+  background-color: #efefef;
+  color: #495562;
+  border: solid;
+  border-color: #efefef;
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    background-color: rgba(73, 85, 98, 0);
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .banner {
+    max-height: 500px;
+  }
+
+  .button {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-content {
+    background-color: rgba(73, 85, 98, 0);
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .banner {
+    max-height: 500px;
+  }
+
+  .button {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .button {
+    text-align: left;
+  }
+
 }
